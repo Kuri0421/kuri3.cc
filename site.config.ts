@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'Kuri3',
 
   // open graph metadata (optional)
-  description: 'のサイトはオーナーであるKuri3が自己顕示欲を満たすために作成されたサイトです。',
+  description: 'オーナーであるKuri3が自己顕示欲を満たすために作成されたサイトです。',
 
   // social usernames (optional)
   twitter: 'Kurii0421',
