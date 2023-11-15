@@ -22,6 +22,15 @@ export const PageHead: React.FC<
 
   return (
     <Head>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-MTQBNTF90Q"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-MTQBNTF90Q');
+        </script>
+
       <meta charSet='utf-8' />
       <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
       <meta
