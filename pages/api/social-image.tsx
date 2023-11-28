@@ -11,7 +11,7 @@ const interRegularFontP = fetch(
 ).then((res) => res.arrayBuffer())
 
 const interBoldFontP = fetch(
-  new URL('../../public/fonts/Inter-SemiBold.ttf', import.meta.url)
+  new URL('../../public/fonts/NotoSansJP-SemiBold.ttf', import.meta.url)
 ).then((res) => res.arrayBuffer())
 
 export const config = {
@@ -55,7 +55,7 @@ export default async function OGImage(req: NextRequest) {
           backgroundColor: '#1F2027',
           alignItems: 'center',
           justifyContent: 'center',
-          fontFamily: '"Inter", sans-serif',
+          fontFamily: 'Noto Sans JP',
           color: 'black'
         }}
       >
@@ -117,7 +117,7 @@ export default async function OGImage(req: NextRequest) {
               style={{
                 fontSize: 70,
                 fontWeight: 700,
-                fontFamily: 'Inter'
+                fontFamily: 'Noto Sans JP'
               }}
             >
               {pageInfo.title}
@@ -162,13 +162,13 @@ export default async function OGImage(req: NextRequest) {
       height: 630,
       fonts: [
         {
-          name: 'Inter',
+          name: 'Noto Sans JP',
           data: interRegularFont,
           style: 'normal',
           weight: 400
         },
         {
-          name: 'Inter',
+          name: 'Noto Sans JP',
           data: interBoldFont,
           style: 'normal',
           weight: 700
